@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100svh;
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+div {
+  width: 20vw;
+  height: 20vw;
+  border: none;
+  flex: 1 1 calc(20%);
+
+  background-size: cover;
+  background-position: center;
+  transition: transform 1s ease, border-radius 0.5s ease;
+}
+div:hover {
+  transform: scale(1.5);
+  border-radius: 50%;
+}

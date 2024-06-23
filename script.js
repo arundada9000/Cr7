@@ -12,13 +12,6 @@ body.addEventListener("click", () => {
   }
 });
 
-body.addEventListener("click", writetext);
-body.addEventListener("dbclick", writetext);
-
-function writetext() {
-  navigator.clipboard.writeText("Love you ronaldo");
-}
-
 const bginterval = setInterval(() => {
   let bg = "url('./assets/cr" + index + ".jpg')";
   body.style.backgroundImage = bg;
